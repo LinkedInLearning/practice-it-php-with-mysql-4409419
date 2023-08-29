@@ -1,32 +1,46 @@
-# COURSENAME
-This is the repository for the LinkedIn Learning course `course-name`. The full course is available from [LinkedIn Learning][lil-course-url].
+# Practice It: PHP with MySQL
+This is the repository for the LinkedIn Learning course `Practice It: PHP with MySQL`. The full course is available from [LinkedIn Learning][lil-course-url].
 
 ![course-name-alt-text][lil-thumbnail-url] 
 
-_See the readme file in the main branch for updated instructions and information._
 ## Instructions
-This repository has branches for each of the videos in the course. You can use the branch pop up menu in github to switch to a specific branch and take a look at the course at that stage, or you can add `/tree/BRANCH_NAME` to the URL to go to the branch you want to access.
+This repository has only one branch. The files used in each assignment and the instructor's solutions are in numbered directories that correspond to the chapter and movie number (CHAPTER#_MOVIE#). For example, `01_02` contains the files needed for the first exercise and `01_03_checkit` contains the instructor's solution to the first exercise.
 
-## Branches
-The branches are structured to correspond to the videos in the course. The naming convention is `CHAPTER#_MOVIE#`. As an example, the branch named `02_03` corresponds to the second chapter and the third video in that chapter. 
-Some branches will have a beginning and an end state. These are marked with the letters `b` for "beginning" and `e` for "end". The `b` branch contains the code as it is at the beginning of the movie. The `e` branch contains the code as it is at the end of the movie. The `main` branch holds the final state of the code when in the course.
+Each numbered directory contains two sets of files. The `tasks` directory uses PHP code in the procedural style. The `tasks_oop` directory uses PHP in the Object-Oriented Programming (OOP) style. You can use whichever style you prefer and ignore the other directory.
 
-When switching from one exercise files branch to the next after making changes to the files, you may get a message like this:
+## Codespaces
+This repository was designed for use with GitHub Codespaces. The course explains how to use it.
 
-    error: Your local changes to the following files would be overwritten by checkout:        [files]
-    Please commit your changes or stash them before you switch branches.
-    Aborting
+When launched, the Codespace will automatically create a database and populate it with sample data. You can write PHP code directly in the Codespace. Then, you can start a web server in the Codespace and view the web pages in a new browser window.
 
-To resolve this issue:
-	
-    Add changes to git using this command: git add .
-	Commit changes using this command: git commit -m "some message"
+## Installing and Using
+1. Launch a Codespace.
+2. Start a webserver.
+  - Switch to the `Terminal` tab in the bottom frame of the Codespace.
+  - Type `apachectl start` and hit return.
+  - You may need to start the webserver again if the Codespace is restarted.
+3. Open a new browser tab to view web pages.
+  - When the webserver starts, a pop-up window will appear in the lower right.
+  - Click the option to "Open in Browser".
+  - A new browser tab will open and show the output of the index.php page.
+4. If needed, the browser tab can be opened another way.
+  - Switch to the `Ports` tab in the bottom frame of the Codespace.
+  - Find the line for Port 80, hover over "Local Address", and click the globe icon that appears.
+5. Write your code.
+  - In the Codespace, navigate to the directory that corresponds to the current exercise.
+  - Write your code for the exercise directly in the Codespace.
+  - Save your work.
+6. View the web page.
+  - Switch to the other browser tab.
+  - Add the path to the PHP page to the URL.
+  - Example: https://[your-codespace].app.github.dev/01_02/tasks/show.php
 
-## Installing
-1. To use these exercise files, you must have the following installed:
-	- [list of requirements for course]
-2. Clone this repository into your local machine using the terminal (Mac), CMD (Windows), or a GUI tool like SourceTree.
-3. [Course-specific instructions]
+### Instructor
+
+Kevin Skoglund
+
+Check out my other courses on [LinkedIn Learning](https://www.linkedin.com/learning/instructors/kevin-skoglund).
+
 
 
 [0]: # (Replace these placeholder URLs with actual course URLs)
