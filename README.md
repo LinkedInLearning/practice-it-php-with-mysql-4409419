@@ -1,7 +1,12 @@
 # Practice It: PHP with MySQL
-This is the repository for the LinkedIn Learning course `Practice It: PHP with MySQL`. The full course is available from [LinkedIn Learning][lil-course-url].
+This is the repository for the LinkedIn Learning course Practice It: PHP with MySQL. The full course is available from [LinkedIn Learning][lil-course-url].
 
-![course-name-alt-text][lil-thumbnail-url] 
+![Practice It: PHP with MySQL][lil-thumbnail-url] 
+
+In this course, get hands-on experience with essential PHP skills like creating, reading, updating, and deleting records in an SQL database—without the hassle of installing and configuring PHP and MySQL. Instructor Kevin Skoglund
+shows you how to incorporate URL parameters, form data, and error handling as you build web pages for content management. This course offers the flexibility to work with either procedural code, object-oriented code, or both, so you can find the approach that works best for you. Whether you need a refresher on the fundamentals or want to get comfortable with unfamiliar techniques, this course can help you achieve your goals.
+ 
+This course is integrated with GitHub Codespaces, an instant cloud developer environment that offers all the functionality of your favorite IDE without the need for any local machine setup. With GitHub Codespaces, you can get hands-on practice from any machine, at any time—all while using a tool that you’ll likely encounter in the workplace. Check out the “Using GitHub Codespaces with this course” video to learn how to get started.
 
 ## Instructions
 This repository has only one branch. The files used in each assignment and the instructor's solutions are in numbered directories that correspond to the chapter and movie number (CHAPTER#_MOVIE#). For example, `01_02` contains the files needed for the first exercise and `01_03_checkit` contains the instructor's solution to the first exercise.
@@ -38,13 +43,7 @@ When launched, the Codespace will automatically create a database and populate i
 ### Instructor
 
 Kevin Skoglund
-
 Check out my other courses on [LinkedIn Learning](https://www.linkedin.com/learning/instructors/kevin-skoglund).
 
-
-
-[0]: # (Replace these placeholder URLs with actual course URLs)
-
-[lil-course-url]: https://www.linkedin.com/learning/
-[lil-thumbnail-url]: http://
-
+[lil-course-url]: https://www.linkedin.com/learning/practice-it-php-with-mysql?dApp=59033956&leis=LAA
+[lil-thumbnail-url]: https://media.licdn.com/dms/image/D4E0DAQGUedQu5U2T2A/learning-public-crop_288_512/0/1697665834323?e=2147483647&v=beta&t=bnJoUZ3h2vc8JiH9O1nP-HG4IwmsIGof7ic43GYK4_0
